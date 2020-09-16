@@ -1,0 +1,121 @@
+@media (max-width: 950px) {
+    .column1{
+        display: none;
+    }
+}
+@media (max-width: 750px) {
+    .column7{
+        display: none;
+    }
+}
+@media (max-width: 630px) {
+    .column6{
+        display: none;
+    }
+}
+@media (max-width: 580px) {
+    .column5{
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    .column4{
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    .column3{
+        display: none;
+    }
+}
+
+.logo-border {
+    width: 175px;
+    height: 85px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.logo-text {
+    text-align: center;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.border-profile-img{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.product-list-image-admin{
+    width: 55px;
+    height: 55px;
+}
+.order-detail-container{
+    position: relative;
+    min-height: 34px;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin-bottom: 20px;
+}
+.order-detail-title{
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background: #ffffff;
+    color: #c3c3c3;
+}
+.order-detail-text{
+    font-weight: 500;
+}
+.order-detail-name{
+    font-size: 17px;
+}
+.order-detail-description-cont{
+    position: relative;
+    height: 100%;
+    padding: 8px 15px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin-bottom: 20px;
+}
+.order-description-title{
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background: #ffffff;
+    color: #c3c3c3;
+}
+.order-description-text {
+    font-weight: 500;
+    width: 100%;
+    border: none;
+}
+.order-detail-input{
+    width: 100%;
+    border: none;
+}
+.order-detail-input::placeholder{
+    color: #b9b9b9;
+}
